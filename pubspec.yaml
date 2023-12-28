@@ -1,0 +1,32 @@
+name: vsystem
+description: A Flutter project for an Online Voting System
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  cupertino_icons: ^1.0.2
+
+  # Use a null-safe loading indicator package
+  loading_indicator: ^2.0.0
+
+  # Add more dependencies as needed
+  firebase_core:  ^1.19.1
+  firebase_auth: ^3.4.0
+  cloud_firestore: ^3.2.1
+  http: ^0.13.4
+
+  # Add any other dependencies you may require
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
